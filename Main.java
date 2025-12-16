@@ -7,8 +7,10 @@ class Main {
         Pokemon P1 = new Pokemon("Pikachu");
         Pokemon P2 = new Pokemon("Bulbasaur");
         Pokemon P3 = new Pokemon("Phoenix");
+        Pokemon P4 = new Pokemon("Legendary kingkong");
+        
 
-        Pokemon[] pokemons = { P1, P2, P3 };
+        Pokemon[] pokemons = { P1, P2, P3, P4 };
 
         Scanner scan = new Scanner(System.in);
         Random R = new Random();
