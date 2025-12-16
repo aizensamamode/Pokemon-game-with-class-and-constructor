@@ -21,6 +21,7 @@ class Main {
         if (ans.equalsIgnoreCase("y")) {
             Pokemon randomPokemon = pokemons[R.nextInt(pokemons.length)];
             System.out.println("You got: " + randomPokemon.name);
+            randomPokemon.talk();
         } else {
             System.out.println("Maybe next time 🙂");
         }
